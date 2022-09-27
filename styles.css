@@ -12,3 +12,7 @@
 .list-option{
     padding-left: 10px;
 }
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+}
