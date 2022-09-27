@@ -40,3 +40,14 @@
 .contact-icons{
     display: flex;
 }
+
+.reservation-wrapper{
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-reservation{
+    display: flex;
+    flex-direction:column;
+}

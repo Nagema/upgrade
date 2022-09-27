@@ -156,47 +156,49 @@
             <ul>
         </section>
         <section>
-            <div>
-                <h2>
-                    Reservas
-                </h2>
-                <form action="">
-                    <label for="personas">Personas</label>
-                    <select name="personas" id="personas" form="personasForm">
-                        <option hidden selected>2 personas</option>
-                        <option value="1">1 persona</option>
-                        <option value="2">2 personas</option>
-                        <option value="3">3 personas</option>
-                        <option value="4">4 personas</option>
-                    </select>
-                    <label for="horas">Hora</label>
-                    <select name="Horas" id="horas" form="horasForm">
-                        <option hidden selected>Selecciona una hora</option>
-                        <option value="8:00">8:00</option>
-                        <option value="9:00">9:00</option>
-                        <option value="10:00">10:00</option>
-                        <option value="11:00">11:00</option>
-                    </select>
+            <h2>
+                Reservas
+            </h2>
+            <div class="reservation-wrapper">           
+                <form class="form-reservation" action="">
+                    <div>
+                        <label for="personas">Personas</label>
+                        <select name="personas" id="personas" form="personasForm">
+                            <option hidden selected>2 personas</option>
+                            <option value="1">1 persona</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                        </select>
+                        <label for="horas">Hora</label>
+                        <select name="Horas" id="horas" form="horasForm">
+                            <option hidden selected>Selecciona una hora</option>
+                            <option value="8:00">8:00</option>
+                            <option value="9:00">9:00</option>
+                            <option value="10:00">10:00</option>
+                            <option value="11:00">11:00</option>
+                        </select>
+                    </div>
                     <select name="mesas" id="mesas" form="mesasForm">
                         <option hidden selected>Selecciona tipo de mesas</option>
                         <option value="Salon">Salon</option>
                         <option value="Terraza">Terraza</option>
                     </select>
                     <button>Reservar</button>
-                </form>
-                <div>
-                    <p>Si no encuentras disponibilidad, apuntese a la lista de espera</p>
-                    <button>Lista de espera</button>
-                    <button>Solicitud de grupo</button>
-                </div>
-                <div>
+                    <div>
+                        <p>Si no encuentras disponibilidad, apuntese a la lista de espera</p>
+                        <button>Lista de espera</button>
+                        <button>Solicitud de grupo</button>
+                    </div>
+                </form>        
+                <aside>
                     <h1>Mozzabar</h1>
                     <h2>Food & drinks</h2>
                     <p>Conde de Peñalver 64</p>
                     <p>28006 - Madrid</p>
                     <p>Abrimos de lunes a domingo</p>
                     <p>de 07:30 a 01:30</p>
-                </div>
+                </aside>
             </div>
         </section>
         <section>
