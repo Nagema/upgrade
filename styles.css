@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-list{
+    display: flex;
+}
+.list-option{
+    padding-left: 10px;
+}
