@@ -2,17 +2,41 @@
     margin: 0;
     list-style: none;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
+    margin: 2% 5% ;
 }
+
 .navbar-list{
     display: flex;
 }
+
 .list-option{
     padding-left: 10px;
 }
+
 .menu-list{
     display: flex;
     justify-content: space-between;
+}
+
+.main-menu-list{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+}
+
+.blog-images{
+    display: flex;
+}
+
+.contact-icons-wrapper{
+    display: flex;
+}
+
+.contact-icons{
+    display: flex;
 }

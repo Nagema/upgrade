@@ -63,7 +63,7 @@
         </section>
         <section>
             <h1>Carta</h1>
-            <ul>
+            <ul class="main-menu-list">
                 <li>Desayuno</li>
                 <li>Carta</li>
                 <li>Cocktails</li>
@@ -72,7 +72,22 @@
                 <li>
                     <h2>Dulces</h2>
                     <ul>
-                        
+                        <li class="menu-list"> 
+                            <p>Croissant</p>
+                            <p>1.40</p>
+                        </li>
+                        <li class="menu-list">
+                            <p>Croissant a la plancha</p>
+                            <p>1.60</p>
+                        </li>
+                        <li class="menu-list">
+                            <p>Napolitana de chocolate</p>
+                            <p>1.40</p>
+                        </li>
+                        <li class="menu-list">
+                            <p>Tostada Francesa con helado de vainilla y frutos rojos</p>
+                            <p>4.5</p>
+                        </li>
                     </ul>    
                 </li>
                 <li>
@@ -146,13 +161,34 @@
                     Reservas
                 </h2>
                 <form action="">
-                    <input type="text">
-                    <input type="text">
+                    <label for="personas">Personas</label>
+                    <select name="personas" id="personas" form="personasForm">
+                        <option hidden selected>2 personas</option>
+                        <option value="1">1 persona</option>
+                        <option value="2">2 personas</option>
+                        <option value="3">3 personas</option>
+                        <option value="4">4 personas</option>
+                    </select>
+                    <label for="horas">Hora</label>
+                    <select name="Horas" id="horas" form="horasForm">
+                        <option hidden selected>Selecciona una hora</option>
+                        <option value="8:00">8:00</option>
+                        <option value="9:00">9:00</option>
+                        <option value="10:00">10:00</option>
+                        <option value="11:00">11:00</option>
+                    </select>
+                    <select name="mesas" id="mesas" form="mesasForm">
+                        <option hidden selected>Selecciona tipo de mesas</option>
+                        <option value="Salon">Salon</option>
+                        <option value="Terraza">Terraza</option>
+                    </select>
                     <button>Reservar</button>
+                </form>
+                <div>
                     <p>Si no encuentras disponibilidad, apuntese a la lista de espera</p>
                     <button>Lista de espera</button>
                     <button>Solicitud de grupo</button>
-                </form>
+                </div>
                 <div>
                     <h1>Mozzabar</h1>
                     <h2>Food & drinks</h2>
@@ -165,7 +201,7 @@
         </section>
         <section>
             <h2>Blog</h2>
-            <article>
+            <article class="blog-images">
                 <div>
                     <img src="" alt="imgblog1">
                 </div>
@@ -175,13 +211,13 @@
                 <div>
                     <img src="" alt="imgblog3">
                 </div>
-                <button>Ver todas las entradas</button>
             </article>
+            <button>Ver todas las entradas</button>
         </section>
         <section>
             <img src="" alt="">
             <p></p>
-            <ul>
+            <ul class="contact-icons">
                 <li><img src="" alt="img1"></li>
                 <li><img src="" alt="img2"></li>
                 <li><img src="" alt="img3"></li>
@@ -217,12 +253,12 @@
                        </div>
                     </li>
                </ul>
-               <div>
+               <div class="contact-icons-wrapper">
                    <p>
 
                    </p>
                    <div>
-                       <ul>
+                       <ul class="contact-icons">
                            <li><a href=""><img src="" alt="footerimg"></a></li>
                            <li><a href=""><img src="" alt="footerimg"></a></li>
                        </ul>
