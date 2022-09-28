@@ -10,7 +10,7 @@
 <body>
     <header>
         <nav class="navbar">
-            <img class="logo" src="" alt="logo">
+            <img class="logo" src="https://via.placeholder.com/40" alt="logo">
             <ul class="navbar-list">
                 <li class="list-option"> <a href="">Home</a></li>
                 <li class="list-option"> <a href="">Concepto</a></li>
@@ -23,11 +23,13 @@
         </nav>
     </header>
     <main>
-        <section>
-            <p>Descubre</p>
-            <h1>MOZZA BAR</h1>
-            <h2>WE ARE OPEN</h2>
-        </section>
+        <section class="home">
+            <div>
+                <p>Descubre</p>
+                <h1>MOZZA BAR</h1>
+                <h2>WE ARE OPEN</h2>
+            </div>
+            </section>
         <section>
             <img src="" alt="">
             <div>
@@ -38,27 +40,24 @@
             </div>
             <img src="" alt="">
         </section>
-        <section>
+        <section class="image-galery">
             <div>
-                <img src="" alt="imagen 1">
+                <img src="https://via.placeholder.com/150" alt="imagen 1">
             </div>
             <div>
-                <img src="" alt="imagen 2">
+                <img src="https://via.placeholder.com/150" alt="imagen 2">
             </div>
             <div>
-                <img src="" alt="imagen 3">
+                <img src="https://via.placeholder.com/150" alt="imagen 3">
             </div>
             <div>
-                <img src="" alt="imagen 4">
+                <img src="https://via.placeholder.com/150" alt="imagen 4">
             </div>
             <div>
-                <img src="" alt="imagen 5">
+                <img src="https://via.placeholder.com/150" alt="imagen 5">
             </div>
             <div>
-                <img src="" alt="imagen 6">
-            </div>
-            <div>
-                <img src="" alt="imagen 7">
+                <img src="https://via.placeholder.com/150" alt="imagen 6">
             </div>
         </section>
         <section>
@@ -68,7 +67,7 @@
                 <li>Carta</li>
                 <li>Cocktails</li>
             </ul>
-            <ul>
+            <ul class="menu-details">
                 <li>
                     <h2>Dulces</h2>
                     <ul>
@@ -156,23 +155,21 @@
             <ul>
         </section>
         <section>
-            <h2>
-                Reservas
-            </h2>
+            <h2>Reservas</h2>
             <div class="reservation-wrapper">           
-                <form class="form-reservation" action="">
+                <form class="form-reservation" action="/" method="get">
                     <div>
-                        <label for="personas">Personas</label>
-                        <select name="personas" id="personas" form="personasForm">
+                        <label>Personas</label>
+                        <select>
                             <option hidden selected>2 personas</option>
                             <option value="1">1 persona</option>
                             <option value="2">2 personas</option>
                             <option value="3">3 personas</option>
                             <option value="4">4 personas</option>
                         </select>
-                        <label for="horas">Hora</label>
-                        <select name="Horas" id="horas" form="horasForm">
-                            <option hidden selected>Selecciona una hora</option>
+                        <label>Hora</label>
+                        <select>
+                            <option hidden selected>Seleccione una hora</option>
                             <option value="8:00">8:00</option>
                             <option value="9:00">9:00</option>
                             <option value="10:00">10:00</option>
@@ -181,14 +178,14 @@
                     </div>
                     <select name="mesas" id="mesas" form="mesasForm">
                         <option hidden selected>Selecciona tipo de mesas</option>
-                        <option value="Salon">Salon</option>
+                        <option value="Salon">Salón</option>
                         <option value="Terraza">Terraza</option>
                     </select>
-                    <button>Reservar</button>
+                    <button type="submit">Reservar</button>
                     <div>
-                        <p>Si no encuentras disponibilidad, apuntese a la lista de espera</p>
-                        <button>Lista de espera</button>
-                        <button>Solicitud de grupo</button>
+                        <p>Si no encuentras disponibilidad, apúntese a la lista de espera</p>
+                        <button type="submit">Lista de espera</button>
+                        <button type="submit">Solicitud de grupo</button>
                     </div>
                 </form>        
                 <aside>
@@ -205,13 +202,13 @@
             <h2>Blog</h2>
             <article class="blog-images">
                 <div>
-                    <img src="" alt="imgblog1">
+                    <img src="https://via.placeholder.com/200" alt="imgblog1">
                 </div>
                 <div>
-                    <img src="" alt="imgblog2">
+                    <img src="https://via.placeholder.com/200" alt="imgblog2">
                 </div>
                 <div>
-                    <img src="" alt="imgblog3">
+                    <img src="https://via.placeholder.com/200" alt="imgblog3">
                 </div>
             </article>
             <button>Ver todas las entradas</button>
@@ -220,14 +217,14 @@
             <img src="" alt="">
             <p></p>
             <ul class="contact-icons">
-                <li><img src="" alt="img1"></li>
-                <li><img src="" alt="img2"></li>
-                <li><img src="" alt="img3"></li>
+                <li><img src="https://via.placeholder.com/50" alt="img1"></li>
+                <li><img src="https://via.placeholder.com/50" alt="img2"></li>
+                <li><img src="https://via.placeholder.com/50" alt="img3"></li>
             </ul>
             <p>Siguenos</p>
             <div>
-                <button>Facebook</button>
-                <button>Instagram</button>
+                <button type="submit">Facebook</button>
+                <button type="submit">Instagram</button>
             </div>
         </section>
         <footer>
@@ -261,12 +258,12 @@
                    </p>
                    <div>
                        <ul class="contact-icons">
-                           <li><a href=""><img src="" alt="footerimg"></a></li>
-                           <li><a href=""><img src="" alt="footerimg"></a></li>
+                           <li><a href=""><img src="https://via.placeholder.com/30" alt="footerimg"></a></li>
+                           <li><a href=""><img src="https://via.placeholder.com/30" alt="footerimg"></a></li>
                        </ul>
                    </div>
                    <div>
-                       <button>icon</button>
+                       <button type="submit">icon</button>
                    </div>
                </div>
            </section>

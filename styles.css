@@ -2,6 +2,12 @@
     margin: 0;
     list-style: none;
 }
+section{
+    padding: 3% 5%;
+}
+ul {
+    padding: 0;
+}
 
 .navbar {
     display: flex;
@@ -37,17 +43,35 @@
     display: flex;
 }
 
-.contact-icons{
+.contact-icons{ 
     display: flex;
 }
 
 .reservation-wrapper{
-    margin: 2% 10%;
     display: flex;
     justify-content: space-around;
 }
 
 .form-reservation{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
+}
+.menu-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+}
+.image-galery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10%;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    background-image: url("https://via.placeholder.com/100");
+}
+.home div{
+    margin-top: 20%;
 }
