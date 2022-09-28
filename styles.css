@@ -8,35 +8,37 @@ section{
 ul {
     padding: 0;
 }
+header {
+    background-color: #202020;
+}
+
+a {
+    text-decoration: none;
+}
 
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin: 2% 5% ;
+    padding: 2% 5% ;
 }
 
 .navbar-list{
     display: flex;
+    line-height: 2.5;
 }
 
 .list-option{
     padding-left: 10px;
 }
 
+.list-option a {
+    color: #DDDDDD;
+    padding: 10px;
+}
+
 .menu-list{
     display: flex;
     justify-content: space-between;
-}
-
-.main-menu-list{
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-    margin: auto;
-}
-
-.blog-images{
-    display: flex;
 }
 
 .contact-icons-wrapper{
@@ -56,25 +58,38 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
 .menu-details{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10%;
 }
+
 .image-galery{
     background-color: #1C1C1C;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10%;
+    padding: 5%;
 }
+
+.image-galery div {
+    display: flex;
+    justify-content: center;
+}
+
 .home {
     display: flex;
     justify-content: center;
     height: 80vh;
-    background-image: url("https://via.placeholder.com/100");
+    background-image: url("https://via.placeholder.com/1200x600");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 .home div{
     margin-top: 20%;
+    text-align: center;
 }
 
 .concept{
@@ -83,7 +98,8 @@ ul {
     display: flex;
     justify-content: center;
 }
-.concept-box-wrapper{
+
+.concept-box-wrapper {  
     width: 50%;
     background-color: #1C1C1C;
     color: #FBFCF8;
@@ -92,6 +108,38 @@ ul {
     line-height: 1.5;
     text-align:justify;
 }
+
+.concept-box-wrapper h1{
+    text-align: center;
+    padding-bottom: 5%;
+}
 .menu-wrapper{
     margin: 5%;
+}
+
+.menu-wrapper h1 {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.main-menu-list{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+}
+
+.reservations h2{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.blog-images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blog h2 {
+    text-align: center;
+    padding-bottom: 5%;
 }
