@@ -134,6 +134,11 @@ a {
     padding-bottom: 5%;
 }
 
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+
 .blog-images{
     display: flex;
     justify-content: space-evenly;
@@ -142,4 +147,14 @@ a {
 .blog h2 {
     text-align: center;
     padding-bottom: 5%;
+}
+
+.blog button{
+    margin: 5%;
+    align-self: center;
+    width: 160px;
+    color: #FBFCF8;
+    background-color: #B88438;
+    border-style: none;
+    padding: 8px;    
 }
